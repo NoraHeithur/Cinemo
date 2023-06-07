@@ -1,0 +1,53 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CinemoApp" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.CinemoApp" parent="Base.Theme.CinemoApp" />
+
+    <style name="ComponentsShapeAppearance_Circular">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="ComponentsShapeAppearance_RoundedSmall" parent="ComponentsShapeAppearance_Circular">
+        <item name="cornerSize">@dimen/margin_padding_8</item>
+    </style>
+
+    <style name="BaseCircularButtonNoStroke" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:insetTop">@dimen/constraint_no_size</item>
+        <item name="android:insetBottom">@dimen/constraint_no_size</item>
+        <item name="iconPadding">@dimen/constraint_no_size</item>
+        <item name="rippleColor">?attr/colorButtonNormal</item>
+        <item name="shapeAppearance">@style/ComponentsShapeAppearance_Circular</item>
+        <item name="strokeWidth">@dimen/constraint_no_size</item>
+    </style>
+
+    <style name="TextGenre" parent="TextAppearance.Material3.BodySmall">
+        <item name="fontFamily">@font/roboto</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextTitle" parent="TextAppearance.Material3.TitleLarge">
+        <item name="fontFamily">@font/roboto</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_size_22</item>
+    </style>
+
+    <style name="TextTitleToolbar" parent="TextAppearance.Material3.TitleLarge">
+        <item name="fontFamily">@font/roboto</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_size_24</item>
+    </style>
+
+    <style name="TextBody" parent="TextAppearance.Material3.BodyMedium">
+        <item name="fontFamily">@font/roboto</item>
+        <item name="android:fontFamily">@font/roboto</item>
+    </style>
+
+</resources>
